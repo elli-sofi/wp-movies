@@ -1,0 +1,5 @@
+.es-movie-favorites-list {list-style: none;}
+.es-movie-favorites-list > li {width: 50%; float: left; padding: 20px; text-align: center; box-sizing: border-box;}
+.es-movie-favorites-list > li:nth-child(odd) {clear: left;}
+.es-movie-favorites-list > li h1 {padding: 5px 0; margin: 0;}
+.es-movie-favorites-list > li h5 {padding: 0; margin: 0;}

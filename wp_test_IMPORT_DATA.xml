@@ -44,6 +44,7 @@
 		<title>Okja</title>
 		<dc:creator><![CDATA[test]]></dc:creator>
 		<content:encoded><![CDATA[A young girl risks everything to prevent a powerful, multinational company from kidnapping her best friend - a fascinating beast named Okja.]]></content:encoded>
+		<excerpt:encoded><![CDATA[Tilda Swinton, Paul Dano, Seo-hyun Ahn, Jake Gyllenhaal]]></excerpt:encoded>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:status><![CDATA[publish]]></wp:status>
@@ -55,10 +56,6 @@
 		<category domain="es_movie_tag" nicename="action"><![CDATA[Action]]></category>
 		<category domain="es_movie_tag" nicename="adventure"><![CDATA[Adventure]]></category>
 		<category domain="es_movie_tag" nicename="drama"><![CDATA[Drama]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_secondary_title]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Tilda Swinton, Paul Dano, Seo-hyun Ahn, Jake Gyllenhaal]]></wp:meta_value>
-		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[price]]></wp:meta_key>
 			<wp:meta_value><![CDATA[3]]></wp:meta_value>
@@ -73,6 +70,7 @@
 		<title>Call Me by Your Name</title>
 		<dc:creator><![CDATA[test]]></dc:creator>
 		<content:encoded><![CDATA[In 1980s Italy, a romance blossoms between a seventeen year-old student and the older man hired as his father's research assistant.]]></content:encoded>
+		<excerpt:encoded><![CDATA[Armie Hammer, Timothée Chalamet, Michael Stuhlbarg, Amira Casar]]></excerpt:encoded>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:status><![CDATA[publish]]></wp:status>
@@ -83,10 +81,6 @@
 		<wp:is_sticky>0</wp:is_sticky>
 		<category domain="es_movie_tag" nicename="drama"><![CDATA[Drama]]></category>
 		<category domain="es_movie_tag" nicename="romance"><![CDATA[Romance]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_secondary_title]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Armie Hammer, Timothée Chalamet, Michael Stuhlbarg, Amira Casar]]></wp:meta_value>
-		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[price]]></wp:meta_key>
 			<wp:meta_value><![CDATA[5]]></wp:meta_value>
@@ -101,6 +95,7 @@
 		<title>Lady Bird</title>
 		<dc:creator><![CDATA[test]]></dc:creator>
 		<content:encoded><![CDATA[In 2002, an artistically inclined seventeen-year-old girl comes of age in Sacramento, California.]]></content:encoded>
+		<excerpt:encoded><![CDATA[Saoirse Ronan, Laurie Metcalf, Tracy Letts, Lucas Hedges]]></excerpt:encoded>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:status><![CDATA[publish]]></wp:status>
@@ -111,10 +106,6 @@
 		<wp:is_sticky>0</wp:is_sticky>
 		<category domain="es_movie_tag" nicename="comedy"><![CDATA[Comedy]]></category>
 		<category domain="es_movie_tag" nicename="drama"><![CDATA[Drama]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_secondary_title]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Saoirse Ronan, Laurie Metcalf, Tracy Letts, Lucas Hedges]]></wp:meta_value>
-		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[price]]></wp:meta_key>
 			<wp:meta_value><![CDATA[4]]></wp:meta_value>
@@ -129,6 +120,7 @@
 		<title>The Shape of Water</title>
 		<dc:creator><![CDATA[test]]></dc:creator>
 		<content:encoded><![CDATA[At a top secret research facility in the 1960s, a lonely janitor forms a unique relationship with an amphibious creature that is being held in captivity.]]></content:encoded>
+		<excerpt:encoded><![CDATA[Sally Hawkins, Octavia Spencer, Michael Shannon, Doug Jones]]></excerpt:encoded>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:status><![CDATA[publish]]></wp:status>
@@ -140,10 +132,6 @@
 		<category domain="es_movie_tag" nicename="adventure"><![CDATA[Adventure]]></category>
 		<category domain="es_movie_tag" nicename="drama"><![CDATA[Drama]]></category>
 		<category domain="es_movie_tag" nicename="fantasy"><![CDATA[Fantasy]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_secondary_title]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Sally Hawkins, Octavia Spencer, Michael Shannon, Doug Jones]]></wp:meta_value>
-		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[price]]></wp:meta_key>
 			<wp:meta_value><![CDATA[3]]></wp:meta_value>
@@ -158,6 +146,7 @@
 		<title>Three Billboards Outside Ebbing, Missouri</title>
 		<dc:creator><![CDATA[test]]></dc:creator>
 		<content:encoded><![CDATA[A mother personally challenges the local authorities to solve her daughter's murder when they fail to catch the culprit.]]></content:encoded>
+		<excerpt:encoded><![CDATA[Frances McDormand, Woody Harrelson, Sam Rockwell, Caleb Landry Jones]]></excerpt:encoded>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:status><![CDATA[publish]]></wp:status>
@@ -169,9 +158,82 @@
 		<category domain="es_movie_tag" nicename="crime"><![CDATA[Crime]]></category>
 		<category domain="es_movie_tag" nicename="drama"><![CDATA[Drama]]></category>
 		<wp:postmeta>
-			<wp:meta_key><![CDATA[_secondary_title]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Frances McDormand, Woody Harrelson, Sam Rockwell, Caleb Landry Jones]]></wp:meta_value>
+			<wp:meta_key><![CDATA[price]]></wp:meta_key>
+			<wp:meta_value><![CDATA[3]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[favorite]]></wp:meta_key>
+			<wp:meta_value><![CDATA[off]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>The Mercy</title>
+		<dc:creator><![CDATA[test]]></dc:creator>
+		<content:encoded><![CDATA[The incredible story of amateur sailor Donald Crowhurst and his solo attempt to circumnavigate the globe. The struggles he confronted on the journey while his family awaited his return is one of the most enduring mysteries of recent times.]]></content:encoded>
+		<excerpt:encoded><![CDATA[Rachel Weisz, David Thewlis, Colin Firth, Mark Gatiss]]></excerpt:encoded>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[es_movie]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="es_movie_tag" nicename="biography"><![CDATA[Biography]]></category>
+		<category domain="es_movie_tag" nicename="drama"><![CDATA[Drama]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[price]]></wp:meta_key>
+			<wp:meta_value><![CDATA[3]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[favorite]]></wp:meta_key>
+			<wp:meta_value><![CDATA[off]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Hostiles</title>
+		<dc:creator><![CDATA[test]]></dc:creator>
+		<content:encoded><![CDATA[In 1892, a legendary Army captain reluctantly agrees to escort a Cheyenne chief and his family through dangerous territory.]]></content:encoded>
+		<excerpt:encoded><![CDATA[Scott Shepherd, Rosamund Pike, Ava Cooper, Stella Cooper]]></excerpt:encoded>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[es_movie]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="es_movie_tag" nicename="adventure"><![CDATA[Adventure]]></category>
+		<category domain="es_movie_tag" nicename="drama"><![CDATA[Drama]]></category>
+		<category domain="es_movie_tag" nicename="western"><![CDATA[Western]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[price]]></wp:meta_key>
+			<wp:meta_value><![CDATA[3]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[favorite]]></wp:meta_key>
+			<wp:meta_value><![CDATA[off]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Thor: Ragnarok</title>
+		<dc:creator><![CDATA[test]]></dc:creator>
+		<content:encoded><![CDATA[Thor is imprisoned on the planet Sakaar, and must race against time to return to Asgard and stop Ragnarök, the destruction of his world, which is at the hands of the powerful and ruthless villain Hela.]]></content:encoded>
+		<excerpt:encoded><![CDATA[Chris Hemsworth, Tom Hiddleston, Cate Blanchett, Mark Ruffalo]]></excerpt:encoded>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[es_movie]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="es_movie_tag" nicename="adventure"><![CDATA[Action]]></category>
+		<category domain="es_movie_tag" nicename="action"><![CDATA[Adventure]]></category>
+		<category domain="es_movie_tag" nicename="comedy"><![CDATA[Comedy]]></category>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[price]]></wp:meta_key>
 			<wp:meta_value><![CDATA[3]]></wp:meta_value>

@@ -1,5 +1,12 @@
 .es-movie-favorites-list {list-style: none;}
 .es-movie-favorites-list > li {width: 50%; float: left; padding: 20px; text-align: center; box-sizing: border-box;}
 .es-movie-favorites-list > li:nth-child(odd) {clear: left;}
-.es-movie-favorites-list > li h1 {padding: 5px 0; margin: 0;}
+.es-movie-favorites-list > li h2 {padding: 5px 0; margin: 0;}
 .es-movie-favorites-list > li h5 {padding: 0; margin: 0;}
+.movie-tags {list-style: none;}
+.movie-tags > li {float: left; padding: 5px 10px; margin: 10px; text-align: center; box-sizing: border-box; background: #eee;}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}

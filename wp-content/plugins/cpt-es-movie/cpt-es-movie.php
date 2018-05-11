@@ -39,6 +39,7 @@ function es_movie_cpt() {
         'title',
         'editor',
         'thumbnail',
+        'excerpt',
         'comments',
         'revisions',
     );
@@ -198,19 +199,28 @@ function es_movie_add_post_type_to_home( $query ) {
 }
 
 /**
- * Favorite Movies content
+ * Add custom Favorite Movies Stylesheet
  */
-add_action( 'the_content', 'es_movie_favorites_page');
+add_action( 'wp_enqueue_scripts', 'es_movie_favorites_style' );
 
-function es_movie_favorites_page( $content ) {
-  if (is_page( 'Best Movies' ) ) {
+function es_movie_favorites_style() {
+  global $post;
+  if ( is_page( 'Best Movies' ) || $post->post_type == "es_movie" ) {
     wp_enqueue_style(
          "es-movie",
          plugins_url( 'styles/es-movie.css', __FILE__),
          array()
     );
+ }
+}
 
-  ?> 
+/**
+ * Generate content for Favorite Movies Page
+ */
+add_action( 'the_content', 'es_movie_favorites_page');
+
+function es_movie_favorites_page( $content ) {
+  if ( is_page( 'Best Movies' ) ) { ?> 
         <ul class='es-movie-favorites-list'>
             <?php
             global $post;
@@ -230,9 +240,8 @@ function es_movie_favorites_page( $content ) {
 
                 <li>
                     <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('thumbnail');?></a>
-                    <?php
-                        echo '<h5>$' . $price . '</h5>';
-                         the_title(); ?>
+                    <h5>$<?php echo $price;?></h5>
+                    <h2><?php the_title(); ?></h2>
                 </li>
             
             <?php endforeach; 

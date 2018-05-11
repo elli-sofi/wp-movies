@@ -18,9 +18,22 @@ get_header(); ?>
 
             <?php
             /* Start the Loop */
-            while ( have_posts() ) : the_post();
+            while ( have_posts() ) : the_post();?>
 
-                get_template_part( 'template-parts/post/content', get_post_format() );
+                <h1><?php the_title();?></h1>
+                <h5><?php the_excerpt();?></h5>
+            <?php
+                $terms = get_the_terms( $post->ID, 'es_movie_tag' );
+                if ( count( $terms ) > 0 ) {
+                    echo "<ul class='movie-tags'>";
+                    foreach ( $terms as $term ) {
+                        echo '<li>' . $term->name . '</li>';
+                    }
+                    echo "</ul>";
+                    echo "<div class='clearfix'></div>";
+                }
+
+                the_content();
 
                 $price = get_post_meta( $post->ID, "price", true );
 
@@ -38,6 +51,8 @@ get_header(); ?>
                     </div>
                 <?php endif;
                 
+                twentyseventeen_entry_footer();
+
                 // If comments are open or we have at least one comment, load up the comment template.
                 if ( comments_open() || get_comments_number() ) :
                     comments_template();
